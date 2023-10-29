@@ -33,16 +33,21 @@ public abstract class Droid {
         if (random.nextInt(100) <= enemy.evadChance) {
             double actualDamage = this.damage - (this.damage * (enemy.evasion / 100));
             enemy.health -= actualDamage;
-            FileHandler.addToHistory("\nДроїд " + this.name + " має нанести " + this.damage + " шкоди дроїду " + enemy.name +
-                    "\nДроїд " + enemy.name + " на " + enemy.evasion + "% блокує шкоду" +
-                    "\nДроїд " + this.name + " наносить " + actualDamage + " шкоди дроїду " + enemy.name + "\n");
+            System.out.println("\nDroid " + this.name + " is about to deal " + this.damage + " damage to droid " + enemy.name +
+                    "\nDroid " + enemy.name + " blocks " + enemy.evasion + "% of the damage" +
+                    "\nDroid " + this.name + " deals " + actualDamage + " damage to droid " + enemy.name + "\n");
+            FileHandler.addToHistory("\nDroid " + this.name + " is about to deal " + this.damage + " damage to droid " + enemy.name +
+                    "\nDroid " + enemy.name + " blocks " + enemy.evasion + "% of the damage" +
+                    "\nDroid " + this.name + " deals " + actualDamage + " damage to droid " + enemy.name + "\n");
         } else {
             enemy.health -= this.damage;
-            FileHandler.addToHistory("\nДроїд " + this.name + " наносить " + this.damage + " шкоди дроїду " + enemy.name + "\n");
+            System.out.println("\nDroid " + this.name + " deals " + this.damage + " damage to droid " + enemy.name + "\n");
+            FileHandler.addToHistory("\nDroid " + this.name + " deals " + this.damage + " damage to droid " + enemy.name + "\n");
         }
         if(enemy.health <= 0) {
             enemies.remove(enemy);
-            FileHandler.addToHistory("Дроїд " + enemy.name + " загинув\n");
+            System.out.println("Droid " + enemy.name + " has been defeated\n");
+            FileHandler.addToHistory("Droid " + enemy.name + " has been defeated\n");
         }
     }
 
@@ -56,4 +61,3 @@ public abstract class Droid {
                 '}';
     }
 }
-

@@ -24,16 +24,21 @@ public class Assassin extends Droid {
             if (super.random.nextInt(100) <= enemy.evadChance ) {
                 double actualDamage = critDamage - (critDamage * (enemy.evasion / 100));
                 enemy.health -= actualDamage;
-                FileHandler.addToHistory("\nДроїд " + this.name + " має нанести " + critDamage + " критичної шкоди дроїду " + enemy.name +
-                        "\nДроїд " + enemy.name + " на " + enemy.evasion + "% блокує шкоду" +
-                        "\nДроїд " + this.name + " наносить " + actualDamage + " критичної шкоди дроїду " + enemy.name + "\n");
+                System.out.println("\nDroid " + this.name + " is about to deal " + critDamage + " critical damage to droid " + enemy.name +
+                        "\nDroid " + enemy.name + " blocks " + enemy.evasion + "% of the damage" +
+                        "\nDroid " + this.name + " deals " + actualDamage + " critical damage to droid " + enemy.name + "\n");
+                FileHandler.addToHistory("\nDroid " + this.name + " is about to deal " + critDamage + " critical damage to droid " + enemy.name +
+                        "\nDroid " + enemy.name + " blocks " + enemy.evasion + "% of the damage" +
+                        "\nDroid " + this.name + " deals " + actualDamage + " critical damage to droid " + enemy.name + "\n");
             } else {
                 enemy.health -= critDamage;
-                FileHandler.addToHistory("\nДроїд " + this.name + " наносить " + critDamage + " критичної шкоди дроїду " + enemy.name + "\n");
+                System.out.println("\nDroid " + this.name + " deals " + critDamage + " critical damage to droid " + enemy.name + "\n");
+                FileHandler.addToHistory("\nDroid " + this.name + " deals " + critDamage + " critical damage to droid " + enemy.name + "\n");
             }
             if(enemy.health <= 0) {
                 enemies.remove(enemy);
-                FileHandler.addToHistory("Дроїд " + enemy.name + " загинув\n");
+                System.out.println("Droid " + enemy.name + " has been defeated\n");
+                FileHandler.addToHistory("Droid " + enemy.name + " has been defeated\n");
             }
         } else {
             this.attack(enemies);

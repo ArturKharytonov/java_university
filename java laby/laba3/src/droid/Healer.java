@@ -29,7 +29,8 @@ public class Healer extends Droid {
             if (teammate.health > 100) {
                 teammate.health = 100;
             }
-            FileHandler.addToHistory("\nДроїд " + this.name + " полікував " + teammate.name + " на " + this.singleHeal + " одиниць");
+            System.out.println("\nDroid " + this.name + " healed " + teammate.name + " by " + this.singleHeal + " units");
+            FileHandler.addToHistory("\nDroid " + this.name + " healed " + teammate.name + " by " + this.singleHeal + " units");
         }
         if (super.random.nextInt(100) <= this.globalHealChance) {
             for (Droid droid:teammates) {
@@ -38,7 +39,8 @@ public class Healer extends Droid {
                     droid.health = 100;
                 }
             }
-            FileHandler.addToHistory("\nДроїд " + this.name + " використав глобальне лікування на " + this.globalHeal + " одиниць");
+            System.out.println("\nDroid " + this.name + " used global healing for " + this.globalHeal + " units");
+            FileHandler.addToHistory("\nDroid " + this.name + " used global healing for " + this.globalHeal + " units");
         }
         this.attack(enemies);
     }

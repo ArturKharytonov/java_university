@@ -4,7 +4,7 @@ import save.FileHandler;
 
 import java.util.List;
 
-public class Trickster extends Droid{
+public class Trickster extends Droid {
     private int seriesOfAttack;
 
     public Trickster(String name) {
@@ -20,20 +20,24 @@ public class Trickster extends Droid{
         Droid enemy = enemies.get(random.nextInt(enemies.size()));
         seriesOfAttack = super.random.nextInt(1, 11);
         double seriesDamage = this.damage * seriesOfAttack;
-        if (super.random.nextInt(100) <= enemy.evadChance ) {
+        if (super.random.nextInt(100) <= enemy.evadChance) {
             double actualDamage = seriesDamage - (seriesDamage * (enemy.evasion / 100));
             enemy.health -= actualDamage;
-            FileHandler.addToHistory("\nДроїд " + this.name + " має нанести " + seriesDamage + " шкоди дроїду " + enemy.name + " за серію з " + seriesOfAttack + " атак" +
-                    "\nДроїд " + enemy.name + " на " + enemy.evasion + "% блокує шкоду" +
-                    "\nДроїд " + this.name + " наносить " + actualDamage + " шкоди дроїду " + enemy.name + "\n");
+            System.out.println("\nDroid " + this.name + " is about to deal " + seriesDamage + " damage to droid " + enemy.name + " in a series of " + seriesOfAttack + " attacks" +
+                    "\nDroid " + enemy.name + " blocks " + enemy.evasion + "% of the damage" +
+                    "\nDroid " + this.name + " deals " + actualDamage + " damage to droid " + enemy.name + "\n");
+            FileHandler.addToHistory("\nDroid " + this.name + " is about to deal " + seriesDamage + " damage to droid " + enemy.name + " in a series of " + seriesOfAttack + " attacks" +
+                    "\nDroid " + enemy.name + " blocks " + enemy.evasion + "% of the damage" +
+                    "\nDroid " + this.name + " deals " + actualDamage + " damage to droid " + enemy.name + "\n");
         } else {
             enemy.health -= seriesDamage;
-            FileHandler.addToHistory("\nДроїд " + this.name + " наніс " + seriesDamage + " шкоди дроїду " + enemy.name + " за серію з " + seriesOfAttack + " атак\n");
+            System.out.println("\nDroid " + this.name + " dealt " + seriesDamage + " damage to droid " + enemy.name + " in a series of " + seriesOfAttack + " attacks\n");
+            FileHandler.addToHistory("\nDroid " + this.name + " dealt " + seriesDamage + " damage to droid " + enemy.name + " in a series of " + seriesOfAttack + " attacks\n");
         }
-        if(enemy.health <= 0) {
+        if (enemy.health <= 0) {
             enemies.remove(enemy);
-            FileHandler.addToHistory("Дроїд " + enemy.name + " загинув\n");
+            System.out.println("Droid " + enemy.name + " has been defeated\n");
+            FileHandler.addToHistory("Droid " + enemy.name + " has been defeated\n");
         }
     }
 }
-

@@ -10,6 +10,7 @@ public class FileHandler {
     private static final PrintWriter printWriter;
     private static final String FILE_NAME = "Saved_Battle.txt";
     private static final StringBuilder history;
+    private static final Object lock = new Object();
 
     static {
         try {
@@ -20,33 +21,32 @@ public class FileHandler {
         }
     }
 
-    public static CompletableFuture<Void> writeToFileAsync(){
+    public static CompletableFuture<Void> writeToFileAsync() {
         return CompletableFuture.runAsync(() -> {
-            try (PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(FILE_NAME, true)))) {
-                printWriter.println(history);
-            } catch (IOException e) {
-                throw new UncheckedIOException(e);
+            synchronized (lock) {
+                try (PrintWriter printWriter = new PrintWriter(new BufferedWriter(new FileWriter(FILE_NAME, true)))) {
+                    printWriter.println(history);
+                } catch (IOException e) {
+                    throw new UncheckedIOException(e);
+                }
             }
         });
     }
 
-    public static CompletableFuture<Void> readFromFileAsync() {
-        return CompletableFuture.runAsync(() -> {
-            try {
-                List<String> lines = Files.readAllLines(Paths.get(FILE_NAME));
-                for (String line : lines) {
-                    System.out.println(line);
+    public static CompletableFuture<List<String>> readFromFileAsync() {
+        return CompletableFuture.supplyAsync(() -> {
+            synchronized (lock) {
+                try {
+                    List<String> lines = Files.readAllLines(Paths.get(FILE_NAME));
+                    return lines;
+                } catch (IOException e) {
+                    throw new UncheckedIOException(e);
                 }
-            } catch (Exception e) {
-                throw new RuntimeException(e);
             }
         });
     }
-    public static void addToHistory(String text) {
-        history.append(text);
-    }
-    public static void closeFile() {
-        printWriter.close();
-    }
+
+    public static void addToHistory(String text) { history.append(text); }
+    public static void closeFile() { printWriter.close(); }
 }
 
