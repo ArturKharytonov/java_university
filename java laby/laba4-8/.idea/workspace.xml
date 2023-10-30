@@ -1,7 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="109b1745-2307-4863-9c30-0552e0feb69f" name="Default Changelist" comment="" />
+    <list default="true" id="136870e3-a298-478f-9595-1678d756c65e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MobileCommunication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Command/CalculateTotalClientsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Command/CommandProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Command/CreateListOfTariffsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Command/FiltrateTariffsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Command/Interfaces/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Company/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Enums/MenuChoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Tariffs/BasicTariff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Tariffs/PremiumTariff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Models/Tariffs/Tariff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laba4-8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/laba4_8.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Command/CalculateTotalClientsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Command/CommandProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Command/CreateListOfTariffsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Command/FindTariffInRangeCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Command/Interfaces/ICommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Command/SortTarrifsCommand.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Company/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Enums/MenuChoice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Tariffs/BasicTariff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Tariffs/PremiumTariff.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba4_8/src/Models/Tariffs/Tariff.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,7 +50,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2XSMunApENfOf3YT6xT8lXPjuJe" />
+  <component name="ProjectId" id="2XScxFE3vj3MzWyPgA2fWflGkQI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -19,15 +59,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Models.Command" />
+      <recent name="Models.Command.Interfaces" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="20 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="MobileCommunication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="109b1745-2307-4863-9c30-0552e0feb69f" name="Default Changelist" comment="" />
-      <created>1698618255336</created>
+      <changelist id="136870e3-a298-478f-9595-1678d756c65e" name="Default Changelist" comment="" />
+      <created>1698626167611</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698618255336</updated>
+      <updated>1698626167611</updated>
     </task>
     <servers />
   </component>

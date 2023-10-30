@@ -1,13 +1,12 @@
 import Models.Command.*;
 import Models.Company.Company;
-import Models.Enums.MenuChoice;
 
 import java.util.Scanner;
 
-import static Models.Enums.MenuChoice.*;
+import static Models.Enums.MenuChoice.values;
 
 public class Main {
-    private static final Scanner _scanner;
+    public static final Scanner _scanner;
     private static final Company _company;
     private static final CommandProcessor<Company> _commandProcessor;
     static {
@@ -24,6 +23,7 @@ public class Main {
                     "4 - Find tariff.\n");
             System.out.print("Your choice:");
             int choice = _scanner.nextInt();
+            _scanner.nextLine(); // Consume newline character
 
             switch (values()[choice - 1]) {
                 case CREATE_TARIFFS:
@@ -32,10 +32,10 @@ public class Main {
                     _commandProcessor.executeCommand(new CalculateTotalClientsCommand(), _company);
                     break;
                 case SORT_TARIFFS:
-                    _commandProcessor.executeCommand(new SortTarrifsCommand(), _company);
+                    _commandProcessor.executeCommand(new SortTariffsCommand(), _company);
                     break;
                 case FIND_TARIFF:
-                    _commandProcessor.executeCommand(new FindTariffInRangeCommand(), _company);
+                    _commandProcessor.executeCommand(new FiltrateTariffsCommand(), _company);
                     break;
                 case EXIT:
                     _scanner.close();

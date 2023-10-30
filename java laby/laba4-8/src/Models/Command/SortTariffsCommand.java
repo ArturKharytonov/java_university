@@ -3,7 +3,7 @@ package Models.Command;
 import Models.Command.Interfaces.ICommand;
 import Models.Company.Company;
 
-public class SortTarrifsCommand implements ICommand<Company> {
+public class SortTariffsCommand implements ICommand<Company> {
     @Override
     public void execute(Company company) {
         company.sortTariffsBySubscriptionFee();

@@ -7,4 +7,13 @@ public class PremiumTariff extends Tariff {
         super(name, subscriptionFee, includedMinutes);
         this.minutesOfTvSubscription = minutesOfTvSubscription;
     }
+
+    @Override
+    public String toString(){
+        return "Type of tariff: Premium\n" +
+                "- name: " + getName() + "\n" +
+                "- subscription fee" + getSubscriptionFee() + "\n" +
+                "- count of users" + getCountOfUsers() + "\n" +
+                "- minutes of TV" + minutesOfTvSubscription + "\n";
+    }
 }
