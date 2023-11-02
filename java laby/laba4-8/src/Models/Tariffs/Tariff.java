@@ -3,7 +3,7 @@ package Models.Tariffs;
 public abstract class Tariff {
     private final String name;
     private final double subscriptionFee;
-    private final int countOfUsers;
+    private int countOfUsers;
 
     public Tariff(String name, double subscriptionFee, int countOfUsers) {
         this.name = name;

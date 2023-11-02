@@ -10,9 +10,13 @@ import java.util.stream.Collectors;
 
 public class Company {
     private final List<Tariff> _tariffs = new ArrayList<Tariff>();
-    private final Scanner _scanner = new Scanner(System.in);
+    //private final Scanner _scanner = new Scanner(System.in);
+    private Scanner _scanner;
 
-
+    public Company(Scanner scanner){
+        _scanner = scanner;
+    }
+    public Company(){}
     public void createListOfTariffs(){
         while (true) {
             System.out.println("Menu:\n" +
@@ -53,12 +57,14 @@ public class Company {
             _tariffs.add(tariff);
         }
     }
+
     public int calculateCountOfClients() {
         int clients = 0;
         for (Tariff tariff : _tariffs)
             clients += tariff.getCountOfUsers();
         return clients;
     }
+
     public void sortTariffsBySubscriptionFee(){
         Collections.sort(_tariffs, new Comparator<Tariff>() {
             @Override
@@ -68,12 +74,19 @@ public class Company {
         });
     }
 
-    public List<Tariff> filterTariffs(){
-        Predicate<Tariff> filter = getFiltrationPredicate();
+    public List<Tariff> filterTariffs(Predicate<Tariff> filter){
         return _tariffs.stream().filter(filter).collect(Collectors.toList());
     }
 
-    private Predicate<Tariff> getFiltrationPredicate(){
+    public List<Tariff> getTariffs(){
+        return _tariffs;
+    }
+
+    public void addTariff(Tariff tariff){
+        _tariffs.add(tariff);
+    }
+
+    public Predicate<Tariff> getFiltrationPredicate(){
         Predicate<Tariff> filter =  tariff -> true;
 
         while (true){
