@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="136870e3-a298-478f-9595-1678d756c65e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../laba1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CalculateTotalClientsCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CompanyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CreateListOfTariffsCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FiltrateTariffsCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MobileCommunication.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortTariffsCommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba1/src/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laba1/src/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MobileCommunication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Command/FiltrateTariffsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Command/FiltrateTariffsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Company/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Tariffs/PremiumTariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Tariffs/PremiumTariff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Tariffs/Tariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Tariffs/Tariff.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2XScxFE3vj3MzWyPgA2fWflGkQI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="Models.Tariffs" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Models.Command" />
+      <recent name="Models.Command.Interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Unnamed">
+    <configuration name="Unnamed" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="20 (2)" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <module name="MobileCommunication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateTotalClientsCommandTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="MobileCommunication" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculateTotalClientsCommandTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateTotalClientsCommandTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MobileCommunication" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CalculateTotalClientsCommandTest" />
+      <option name="METHOD_NAME" value="testExecute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompanyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MobileCommunication" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CompanyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FiltrateTariffsCommandTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MobileCommunication" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FiltrateTariffsCommandTest" />
+      <option name="METHOD_NAME" value="testExecute" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortTariffsCommandTest.testSortTariffsBySubscriptionFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MobileCommunication" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SortTariffsCommandTest" />
+      <option name="METHOD_NAME" value="testSortTariffsBySubscriptionFee" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="JUnit.CalculateTotalClientsCommandTest" />
+      <item itemvalue="JUnit.CalculateTotalClientsCommandTest.testExecute" />
+      <item itemvalue="JUnit.CompanyTest" />
+      <item itemvalue="JUnit.FiltrateTariffsCommandTest.testExecute" />
+      <item itemvalue="JUnit.SortTariffsCommandTest.testSortTariffsBySubscriptionFee" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.SortTariffsCommandTest.testSortTariffsBySubscriptionFee" />
+        <item itemvalue="JUnit.CalculateTotalClientsCommandTest.testExecute" />
+        <item itemvalue="JUnit.FiltrateTariffsCommandTest.testExecute" />
+        <item itemvalue="JUnit.CompanyTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="136870e3-a298-478f-9595-1678d756c65e" name="Default Changelist" comment="" />
+      <created>1698626167611</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698626167611</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/MobileCommunication$CalculateTotalClientsCommandTest.ic" NAME="CalculateTotalClientsCommandTest Coverage Results" MODIFIED="1698928866209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/MobileCommunication$CompanyTest.ic" NAME="CompanyTest Coverage Results" MODIFIED="1698926194154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
