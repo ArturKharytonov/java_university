@@ -1,4 +1,5 @@
-import Models.Company.Company;
+package Models.Company;
+
 import Models.Tariffs.BasicTariff;
 import Models.Tariffs.PremiumTariff;
 import Models.Tariffs.Tariff;
@@ -9,9 +10,9 @@ import org.junit.jupiter.params.provider.ValueSource;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
-import java.util.List;
 import java.util.Scanner;
 import java.util.function.Predicate;
+import java.util.List;
 import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -67,7 +68,7 @@ class CompanyTest {
     public void testFilterBySubscriptionRange() {
         Predicate<Tariff> filter = tariff ->
                 tariff.getSubscriptionFee() >= 10.0 &&
-                tariff.getSubscriptionFee() <= 20.0;
+                        tariff.getSubscriptionFee() <= 20.0;
 
         company.addTariff(new BasicTariff("Plan A", 10.0, 100));
         company.addTariff(new PremiumTariff("Plan B", 20.0, 200, 120));

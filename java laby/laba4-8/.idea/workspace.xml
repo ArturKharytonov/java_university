@@ -1,22 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="136870e3-a298-478f-9595-1678d756c65e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../laba1/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CalculateTotalClientsCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CompanyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CreateListOfTariffsCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FiltrateTariffsCommandTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MobileCommunication.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortTariffsCommandTest.java" afterDir="false" />
+    <list default="true" id="995d112c-e826-4119-b0f5-2055bb6e687d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../laba1/src/LucasCalculation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Models/Command/CalculateTotalClientsCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Models/Command/CreateListOfTariffsCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Models/Command/FiltrateTariffsCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Models/Command/SortTariffsCommandTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Models/Company/CompanyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laba1/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laba1/src/FirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laba1/src/FirstTask.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba2/src/Models/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laba2/src/Models/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba3/Saved_Battle.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../laba3/Saved_Battle.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba3/src/battle/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laba3/src/battle/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../laba3/src/droid/Droid.java" beforeDir="false" afterPath="$PROJECT_DIR$/../laba3/src/droid/Droid.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobileCommunication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba4-8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/laba4-8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CalculateTotalClientsCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CompanyTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CreateListOfTariffsCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FiltrateTariffsCommandTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MobileCommunication.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Command/CommandProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Command/CommandProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Command/CreateListOfTariffsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Command/CreateListOfTariffsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/Command/FiltrateTariffsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Command/FiltrateTariffsCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Command/Interfaces/ICommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Command/Interfaces/ICommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Command/SortTariffsCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Command/SortTariffsCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/Company/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Company/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Models/Tariffs/BasicTariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Tariffs/BasicTariff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/Tariffs/PremiumTariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Tariffs/PremiumTariff.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Models/Tariffs/Tariff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Models/Tariffs/Tariff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortTariffsCommandTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +44,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit3 Test Class" />
+        <option value="Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -41,91 +63,184 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="ProjectId" id="2XScxFE3vj3MzWyPgA2fWflGkQI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="ProjectId" id="2YM073M5aO1Zpgv3qkAlFdmVEyw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit3" value="junit.framework.TestCase" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Spock" value="spock.lang.Specification" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="true" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/Test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/test/Models/Command" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.08896798" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
-      <recent name="" />
+      <recent name="Models.Command" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+      <recent name="junit.framework.TestCase" />
+      <recent name="Models.Command.CalculateTotalClientsCommand" />
+      <recent name="spock.lang.Specification" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arturio Armany\Documents\GitHub\java_university\java laby\laba4-8" />
+      <recent name="C:\Users\Arturio Armany\Documents\GitHub\java_university\java laby\laba4-8\src" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Models.Command" />
+      <recent name="Models.Company" />
       <recent name="" />
-      <recent name="Models.Tariffs" />
+      <recent name="Tests" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Models.Command" />
-      <recent name="Models.Command.Interfaces" />
+      <recent name="" />
+      <recent name="Tests" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Unnamed">
-    <configuration name="Unnamed" type="Application" factoryName="Application" activateToolWindowBeforeRun="false" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="20 (2)" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <module name="MobileCommunication" />
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="laba4-8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculateTotalClientsCommandTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
-      <module name="MobileCommunication" />
+    <configuration name="All in laba4-8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="laba4-8" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculateTotalClientsCommandTest" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateTotalClientsCommandTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="laba4-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Models.Command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Models.Command" />
+      <option name="MAIN_CLASS_NAME" value="Models.Command.CalculateTotalClientsCommandTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculateTotalClientsCommandTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MobileCommunication" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CalculateTotalClientsCommandTest" />
-      <option name="METHOD_NAME" value="testExecute" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="CalculateTotalClientsCommandTest" type="JUnit" factoryName="JUnit">
+      <module name="laba4-8" />
+      <option name="PACKAGE_NAME" value="Models.Command" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompanyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MobileCommunication" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CompanyTest" />
+    <configuration name="CreateListOfTariffsCommandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="laba4-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Models.Command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Models.Command" />
+      <option name="MAIN_CLASS_NAME" value="Models.Command.CreateListOfTariffsCommandTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FiltrateTariffsCommandTest.testExecute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MobileCommunication" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FiltrateTariffsCommandTest" />
+      <module name="laba4-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Models.Command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Models.Command" />
+      <option name="MAIN_CLASS_NAME" value="Models.Command.FiltrateTariffsCommandTest" />
       <option name="METHOD_NAME" value="testExecute" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -133,9 +248,15 @@
       </method>
     </configuration>
     <configuration name="SortTariffsCommandTest.testSortTariffsBySubscriptionFee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MobileCommunication" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SortTariffsCommandTest" />
+      <module name="laba4-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Models.Command.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Models.Command" />
+      <option name="MAIN_CLASS_NAME" value="Models.Command.SortTariffsCommandTest" />
       <option name="METHOD_NAME" value="testSortTariffsBySubscriptionFee" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -145,28 +266,30 @@
     <list>
       <item itemvalue="Application.Unnamed" />
       <item itemvalue="JUnit.CalculateTotalClientsCommandTest" />
-      <item itemvalue="JUnit.CalculateTotalClientsCommandTest.testExecute" />
-      <item itemvalue="JUnit.CompanyTest" />
+      <item itemvalue="JUnit.CalculateTotalClientsCommandTest (1)" />
+      <item itemvalue="JUnit.All in laba4-8" />
       <item itemvalue="JUnit.FiltrateTariffsCommandTest.testExecute" />
+      <item itemvalue="JUnit.CreateListOfTariffsCommandTest" />
       <item itemvalue="JUnit.SortTariffsCommandTest.testSortTariffsBySubscriptionFee" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SortTariffsCommandTest.testSortTariffsBySubscriptionFee" />
-        <item itemvalue="JUnit.CalculateTotalClientsCommandTest.testExecute" />
         <item itemvalue="JUnit.FiltrateTariffsCommandTest.testExecute" />
-        <item itemvalue="JUnit.CompanyTest" />
+        <item itemvalue="JUnit.SortTariffsCommandTest.testSortTariffsBySubscriptionFee" />
+        <item itemvalue="JUnit.CreateListOfTariffsCommandTest" />
+        <item itemvalue="JUnit.All in laba4-8" />
+        <item itemvalue="JUnit.CalculateTotalClientsCommandTest (1)" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="136870e3-a298-478f-9595-1678d756c65e" name="Default Changelist" comment="" />
-      <created>1698626167611</created>
+      <changelist id="995d112c-e826-4119-b0f5-2055bb6e687d" name="Default Changelist" comment="" />
+      <created>1700319973431</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1698626167611</updated>
+      <updated>1700319973431</updated>
     </task>
     <servers />
   </component>
@@ -183,10 +306,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/MobileCommunication$CalculateTotalClientsCommandTest.ic" NAME="CalculateTotalClientsCommandTest Coverage Results" MODIFIED="1698928866209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/MobileCommunication$CompanyTest.ic" NAME="CompanyTest Coverage Results" MODIFIED="1698926194154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
 </project>

@@ -1,6 +1,6 @@
 package Models.Tariffs;
 
-public abstract class Tariff {
+public abstract  class Tariff {
     private final String name;
     private final double subscriptionFee;
     private int countOfUsers;

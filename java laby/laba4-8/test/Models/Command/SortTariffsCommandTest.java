@@ -1,8 +1,8 @@
+package Models.Command;
+
 import Models.Command.Interfaces.ICommand;
-import Models.Command.SortTariffsCommand;
 import Models.Company.Company;
 import Models.Tariffs.BasicTariff;
-import Models.Tariffs.Tariff;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

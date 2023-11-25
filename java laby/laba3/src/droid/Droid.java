@@ -39,7 +39,8 @@ public abstract class Droid {
             FileHandler.addToHistory("\nDroid " + this.name + " is about to deal " + this.damage + " damage to droid " + enemy.name +
                     "\nDroid " + enemy.name + " blocks " + enemy.evasion + "% of the damage" +
                     "\nDroid " + this.name + " deals " + actualDamage + " damage to droid " + enemy.name + "\n");
-        } else {
+        }
+        else {
             enemy.health -= this.damage;
             System.out.println("\nDroid " + this.name + " deals " + this.damage + " damage to droid " + enemy.name + "\n");
             FileHandler.addToHistory("\nDroid " + this.name + " deals " + this.damage + " damage to droid " + enemy.name + "\n");

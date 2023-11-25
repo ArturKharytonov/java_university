@@ -7,7 +7,6 @@ import Models.Tariffs.Tariff;
 import java.util.List;
 import java.util.function.Predicate;
 
-
 public class FiltrateTariffsCommand implements ICommand<Company> {
     @Override
     public void execute(Company company) {

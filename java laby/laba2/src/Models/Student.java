@@ -6,16 +6,16 @@ import java.time.LocalDate;
 import java.util.function.Predicate;
 
 public class Student implements IComaprable {
-    private int id;
-    private String lastName;
-    private String firstName;
-    private String middleName;
-    private LocalDate birthDate;
-    private String address;
-    private String phoneNumber;
-    private String faculty;
-    private int course;
-    private String group;
+    private final int id;
+    private final String lastName;
+    private final String firstName;
+    private final String middleName;
+    private final LocalDate birthDate;
+    private final String address;
+    private final String phoneNumber;
+    private final String faculty;
+    private final int course;
+    private final String group;
 
     public Student(int id, String lastName, String firstName, String middleName, String birthDate,
                    String address, String phoneNumber, String faculty, int course, String group) {

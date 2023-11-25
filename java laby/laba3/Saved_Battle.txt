@@ -1,38 +1,28 @@
 
-Droid Artur dealt 6.0 damage to droid Oleg in a series of 2 attacks
-Team Skyva: Artur - Health: 100,000000Team Pitmy: Oleg - Health: 94,000000
+Droid Oleg dealt 24.0 damage to droid Artur in a series of 8 attacks
+Team Skyva: Artur - Health: 76,000000Team Pitmy: Oleg - Health: 100,000000
 -------------------------------------------------------------------------------
-Droid Oleg is about to deal 45.0 critical damage to droid Artur
-Droid Artur blocks 10.0% of the damage
-Droid Oleg deals 40.5 critical damage to droid Artur
-Team Skyva: Artur - Health: 59,500000Team Pitmy: Oleg - Health: 94,000000
+Droid Artur deals 15.0 damage to droid Oleg
+Team Skyva: Artur - Health: 76,000000Team Pitmy: Oleg - Health: 85,000000
 -------------------------------------------------------------------------------
-Droid Artur dealt 18.0 damage to droid Oleg in a series of 6 attacks
-Team Skyva: Artur - Health: 59,500000Team Pitmy: Oleg - Health: 76,000000
+Droid Oleg dealt 9.0 damage to droid Artur in a series of 3 attacks
+Team Skyva: Artur - Health: 67,000000Team Pitmy: Oleg - Health: 85,000000
 -------------------------------------------------------------------------------
-Droid Oleg deals 15.0 damage to droid Artur
-Team Skyva: Artur - Health: 44,500000Team Pitmy: Oleg - Health: 76,000000
+Droid Artur deals 45.0 critical damage to droid Oleg
+Team Skyva: Artur - Health: 67,000000Team Pitmy: Oleg - Health: 40,000000
 -------------------------------------------------------------------------------
-Droid Artur dealt 18.0 damage to droid Oleg in a series of 6 attacks
-Team Skyva: Artur - Health: 44,500000Team Pitmy: Oleg - Health: 58,000000
+Droid Oleg dealt 9.0 damage to droid Artur in a series of 3 attacks
+Team Skyva: Artur - Health: 58,000000Team Pitmy: Oleg - Health: 40,000000
 -------------------------------------------------------------------------------
-Droid Oleg deals 15.0 damage to droid Artur
-Team Skyva: Artur - Health: 29,500000Team Pitmy: Oleg - Health: 58,000000
+Droid Artur deals 15.0 damage to droid Oleg
+Team Skyva: Artur - Health: 58,000000Team Pitmy: Oleg - Health: 25,000000
 -------------------------------------------------------------------------------
-Droid Artur dealt 21.0 damage to droid Oleg in a series of 7 attacks
-Team Skyva: Artur - Health: 29,500000Team Pitmy: Oleg - Health: 37,000000
+Droid Oleg dealt 27.0 damage to droid Artur in a series of 9 attacks
+Team Skyva: Artur - Health: 31,000000Team Pitmy: Oleg - Health: 25,000000
 -------------------------------------------------------------------------------
-Droid Oleg is about to deal 15.0 damage to droid Artur
-Droid Artur blocks 10.0% of the damage
-Droid Oleg deals 13.5 damage to droid Artur
-Team Skyva: Artur - Health: 16,000000Team Pitmy: Oleg - Health: 37,000000
+Droid Artur deals 30.0 critical damage to droid Oleg
+Droid Oleg has been defeated
+Team Skyva: Artur - Health: 31,000000Team Pitmy: 
 -------------------------------------------------------------------------------
-Droid Artur dealt 3.0 damage to droid Oleg in a series of 1 attacks
-Team Skyva: Artur - Health: 16,000000Team Pitmy: Oleg - Health: 34,000000
--------------------------------------------------------------------------------
-Droid Oleg deals 30.0 critical damage to droid Artur
-Droid Artur has been defeated
-Team Skyva: Team Pitmy: Oleg - Health: 34,000000
--------------------------------------------------------------------------------
-Team Pitmy Wins!
+Team Skyva Wins!
 

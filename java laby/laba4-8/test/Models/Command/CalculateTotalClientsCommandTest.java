@@ -1,4 +1,5 @@
-import Models.Command.CalculateTotalClientsCommand;
+package Models.Command;
+
 import Models.Company.Company;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

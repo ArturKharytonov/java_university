@@ -1,6 +1,6 @@
 package Models.Tariffs;
 
-public class PremiumTariff extends Tariff {
+public class PremiumTariff extends Tariff{
     private int minutesOfTvSubscription;
 
     public PremiumTariff(String name, double subscriptionFee, int countOfUsers, int minutesOfTvSubscription) {

@@ -130,6 +130,5 @@ public class Battle {
             FileHandler.addToHistory(droid.getName() + " - Health: " + res);
         }
     }
-
 }
 
